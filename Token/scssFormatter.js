@@ -13,7 +13,6 @@ function formatTokenValue(token) {
   const type  = token['$type'];
   const value = token['$value']
 
-  console.log("🚀 ~ formatTokenValue ~ type:", type)
   if (type === 'boxShadow') {
     const { x, y, blur, spread, color } = value;
     return `${x}px ${y}px ${blur}px ${spread}px ${color}`;

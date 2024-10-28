@@ -6,7 +6,7 @@ export default {
   platforms: {
     css: {
       transformGroup: 'scss',
-      buildPath: 'Token/variables/',
+      buildPath: 'dist/variables/',
       files: [{
         destination: 'variables.scss',
         format: 'scss/custom-variables'
@@ -14,7 +14,7 @@ export default {
     },
     js: {
       transformGroup: 'js',
-      buildPath: 'Token/variables/',
+      buildPath: 'dist/variables/',
       files: [{
         destination: 'variables.js',
         format: 'javascript/nested'

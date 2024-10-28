@@ -1,7 +1,15 @@
 {
-  "name": "codedemo",
+  "name": "@mayurnandu/design-token-demo",
   "version": "1.0.1",
   "main": "index.js",
+  "style": "dist/variables.css",
+  "sass": "dist/_variables.scss",
+  "files": [
+    ""
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:token": "node Token/buildtoken.js"
