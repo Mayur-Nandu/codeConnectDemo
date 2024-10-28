@@ -1,6 +1,6 @@
 {
   "name": "@mayurnandu/design-token-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "style": "dist/variables.css",
   "sass": "dist/_variables.scss",
